@@ -30,6 +30,22 @@ The scraper collects:
 ## How to Run the Project
 
 Install the required packages:
-
 ```bash
 python -m pip install -r requirements.txt
+```
+
+Collect the weather data:
+
+```bash
+python scrape-weather.py
+```
+
+Clean and analyze the collected data:
+
+```bash
+python clean-weather.py
+```
+
+## Current Progress
+
+The weather scraping and data-cleaning portions are complete. The project currently produces raw, cleaned, summary, and hot-city CSV files. SQLite storage and the Streamlit dashboard will be added during later stages of the capstone project.
