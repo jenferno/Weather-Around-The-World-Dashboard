@@ -1,0 +1,21 @@
+city,condition,local_time,source_url,scraped_at,temperature_f,temperature_c,country
+Phoenix,Scattered clouds. Extremely hot.,Sun 6:27 pm,https://www.timeanddate.com/weather/usa/phoenix,2026-08-24 01:27:03.395074+00:00,110,43.3,usa
+Las Vegas,Scattered clouds. Extremely hot.,Sun 6:27 pm,https://www.timeanddate.com/weather/usa/las-vegas,2026-08-24 01:27:03.395074+00:00,108,42.2,usa
+Dallas,Scattered clouds. Extremely hot.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/dallas,2026-08-24 01:27:03.395074+00:00,103,39.4,usa
+Kuwait City,Passing clouds. Extremely hot.,Mon 4:27 am,https://www.timeanddate.com/weather/kuwait/kuwait-city,2026-08-24 01:27:03.395074+00:00,100,37.8,kuwait
+Dubai,Clear. Extremely hot.,Mon 5:27 am,https://www.timeanddate.com/weather/united-arab-emirates/dubai,2026-08-24 01:27:03.395074+00:00,95,35.0,united-arab-emirates
+Salt Lake City,Broken clouds. Hot.,Sun 7:27 pm,https://www.timeanddate.com/weather/usa/salt-lake-city,2026-08-24 01:27:03.395074+00:00,92,33.3,usa
+Houston,Passing clouds. Hot.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/houston,2026-08-24 01:27:03.395074+00:00,92,33.3,usa
+Doha,Clear. Hot.,Mon 4:27 am,https://www.timeanddate.com/weather/qatar/doha,2026-08-24 01:27:03.395074+00:00,91,32.8,qatar
+Riyadh,Clear. Hot.,Mon 4:27 am,https://www.timeanddate.com/weather/saudi-arabia/riyadh,2026-08-24 01:27:03.395074+00:00,90,32.2,saudi-arabia
+Baghdad,Clear. Hot.,Mon 4:27 am,https://www.timeanddate.com/weather/iraq/baghdad,2026-08-24 01:27:03.395074+00:00,89,31.7,iraq
+Hong Kong,Passing clouds. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/hong-kong/hong-kong,2026-08-24 01:27:03.395074+00:00,88,31.1,hong-kong
+Honolulu,Scattered clouds. Hot.,Sun 3:27 pm,https://www.timeanddate.com/weather/usa/honolulu,2026-08-24 01:27:03.395074+00:00,88,31.1,usa
+Taipei,Scattered showers. Broken clouds. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/taiwan/taipei,2026-08-24 01:27:03.395074+00:00,88,31.1,taiwan
+Seoul,Scattered clouds. Warm.,Mon 10:27 am,https://www.timeanddate.com/weather/south-korea/seoul,2026-08-24 01:27:03.395074+00:00,88,31.1,south-korea
+Shanghai,Partly sunny. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/china/shanghai,2026-08-24 01:27:03.395074+00:00,88,31.1,china
+New Orleans,Passing clouds. Warm.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/new-orleans,2026-08-24 01:27:03.395074+00:00,87,30.6,usa
+Nassau,Passing clouds. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/bahamas/nassau,2026-08-24 01:27:03.395074+00:00,86,30.0,bahamas
+Athens,Pleasantly warm.,Mon 4:27 am,https://www.timeanddate.com/weather/greece/athens,2026-08-24 01:27:03.395074+00:00,86,30.0,greece
+Singapore,Partly sunny. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/singapore/singapore,2026-08-24 01:27:03.395074+00:00,86,30.0,singapore
+Darwin,Sunny. Warm.,Mon 10:57 am,https://www.timeanddate.com/weather/australia/darwin,2026-08-24 01:27:03.395074+00:00,86,30.0,australia

@@ -1,0 +1,141 @@
+city,condition,local_time,source_url,scraped_at,temperature_f,temperature_c,country
+Accra,Passing clouds. Mild.,Mon 1:27 am,https://www.timeanddate.com/weather/ghana/accra,2026-08-24 01:27:03.395074+00:00,75,23.9,ghana
+Edmonton,Partly sunny. Mild.,Sun 7:27 pm,https://www.timeanddate.com/weather/canada/edmonton,2026-08-24 01:27:03.395074+00:00,70,21.1,canada
+Nassau,Passing clouds. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/bahamas/nassau,2026-08-24 01:27:03.395074+00:00,86,30.0,bahamas
+Addis Ababa,Partly cloudy. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/ethiopia/addis-ababa,2026-08-24 01:27:03.395074+00:00,57,13.9,ethiopia
+Frankfurt,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/germany/frankfurt,2026-08-24 01:27:03.395074+00:00,50,10.0,germany
+New Delhi,Fog. Warm.,Mon 6:57 am,https://www.timeanddate.com/weather/india/new-delhi,2026-08-24 01:27:03.395074+00:00,83,28.3,india
+Adelaide,Cool.,Mon 10:57 am,https://www.timeanddate.com/weather/australia/adelaide,2026-08-24 01:27:03.395074+00:00,56,13.3,australia
+Guatemala City,Passing clouds. Mild.,Sun 7:27 pm,https://www.timeanddate.com/weather/guatemala/guatemala,2026-08-24 01:27:03.395074+00:00,73,22.8,guatemala
+New Orleans,Passing clouds. Warm.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/new-orleans,2026-08-24 01:27:03.395074+00:00,87,30.6,usa
+Algiers,Passing clouds. Warm.,Mon 2:27 am,https://www.timeanddate.com/weather/algeria/algiers,2026-08-24 01:27:03.395074+00:00,84,28.9,algeria
+Halifax,Fog. Mild.,Sun 10:27 pm,https://www.timeanddate.com/weather/canada/halifax,2026-08-24 01:27:03.395074+00:00,72,22.2,canada
+New York,Passing clouds. Mild.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/new-york,2026-08-24 01:27:03.395074+00:00,75,23.9,usa
+Almaty,Broken clouds. Mild.,Mon 6:27 am,https://www.timeanddate.com/weather/kazakstan/almaty,2026-08-24 01:27:03.395074+00:00,63,17.2,kazakstan
+Hanoi,Sunny. Warm.,Mon 8:27 am,https://www.timeanddate.com/weather/vietnam/hanoi,2026-08-24 01:27:03.395074+00:00,81,27.2,vietnam
+Oslo,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/norway/oslo,2026-08-24 01:27:03.395074+00:00,50,10.0,norway
+Amman,Clear. Mild.,Mon 4:27 am,https://www.timeanddate.com/weather/jordan/amman,2026-08-24 01:27:03.395074+00:00,75,23.9,jordan
+Harare,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/zimbabwe/harare,2026-08-24 01:27:03.395074+00:00,55,12.8,zimbabwe
+Ottawa,Passing clouds. Mild.,Sun 9:27 pm,https://www.timeanddate.com/weather/canada/ottawa,2026-08-24 01:27:03.395074+00:00,64,17.8,canada
+Amsterdam,Fog. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/netherlands/amsterdam,2026-08-24 01:27:03.395074+00:00,52,11.1,netherlands
+Havana,Passing clouds. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/cuba/havana,2026-08-24 01:27:03.395074+00:00,82,27.8,cuba
+Paris,Clear. Mild.,Mon 3:27 am,https://www.timeanddate.com/weather/france/paris,2026-08-24 01:27:03.395074+00:00,63,17.2,france
+Anadyr,Light rain. Overcast. Cool.,Mon 1:27 pm,https://www.timeanddate.com/weather/russia/anadyr,2026-08-24 01:27:03.395074+00:00,46,7.8,russia
+Helsinki,Clear. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/finland/helsinki,2026-08-24 01:27:03.395074+00:00,55,12.8,finland
+Perth,Sunny. Cool.,Mon 9:27 am,https://www.timeanddate.com/weather/australia/perth,2026-08-24 01:27:03.395074+00:00,59,15.0,australia
+Anchorage,Sunny. Mild.,Sun 5:27 pm,https://www.timeanddate.com/weather/usa/anchorage,2026-08-24 01:27:03.395074+00:00,63,17.2,usa
+Hong Kong,Passing clouds. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/hong-kong/hong-kong,2026-08-24 01:27:03.395074+00:00,88,31.1,hong-kong
+Philadelphia,Partly cloudy. Mild.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/philadelphia,2026-08-24 01:27:03.395074+00:00,73,22.8,usa
+Ankara,Clear. Mild.,Mon 4:27 am,https://www.timeanddate.com/weather/turkey/ankara,2026-08-24 01:27:03.395074+00:00,63,17.2,turkey
+Honolulu,Scattered clouds. Hot.,Sun 3:27 pm,https://www.timeanddate.com/weather/usa/honolulu,2026-08-24 01:27:03.395074+00:00,88,31.1,usa
+Phoenix,Scattered clouds. Extremely hot.,Sun 6:27 pm,https://www.timeanddate.com/weather/usa/phoenix,2026-08-24 01:27:03.395074+00:00,110,43.3,usa
+Antananarivo,Passing clouds. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/madagascar/antananarivo,2026-08-24 01:27:03.395074+00:00,52,11.1,madagascar
+Houston,Passing clouds. Hot.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/houston,2026-08-24 01:27:03.395074+00:00,92,33.3,usa
+Prague,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/czech-republic/prague,2026-08-24 01:27:03.395074+00:00,50,10.0,czech-republic
+Asuncion,Clear. Mild.,Sun 10:27 pm,https://www.timeanddate.com/weather/paraguay/asuncion,2026-08-24 01:27:03.395074+00:00,63,17.2,paraguay
+Indianapolis,Partly sunny. Mild.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/indianapolis,2026-08-24 01:27:03.395074+00:00,73,22.8,usa
+Reykjavik,Clear. Cool.,Mon 1:27 am,https://www.timeanddate.com/weather/iceland/reykjavik,2026-08-24 01:27:03.395074+00:00,46,7.8,iceland
+Athens,Pleasantly warm.,Mon 4:27 am,https://www.timeanddate.com/weather/greece/athens,2026-08-24 01:27:03.395074+00:00,86,30.0,greece
+Islamabad,Passing clouds. Warm.,Mon 6:27 am,https://www.timeanddate.com/weather/pakistan/islamabad,2026-08-24 01:27:03.395074+00:00,78,25.6,pakistan
+Rio de Janeiro,Partly cloudy. Mild.,Sun 10:27 pm,https://www.timeanddate.com/weather/brazil/rio-de-janeiro,2026-08-24 01:27:03.395074+00:00,70,21.1,brazil
+Atlanta,Clear. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/atlanta,2026-08-24 01:27:03.395074+00:00,80,26.7,usa
+Istanbul,Clear. Mild.,Mon 4:27 am,https://www.timeanddate.com/weather/turkey/istanbul,2026-08-24 01:27:03.395074+00:00,75,23.9,turkey
+Riyadh,Clear. Hot.,Mon 4:27 am,https://www.timeanddate.com/weather/saudi-arabia/riyadh,2026-08-24 01:27:03.395074+00:00,90,32.2,saudi-arabia
+Auckland,Passing clouds. Cool.,Mon 1:27 pm,https://www.timeanddate.com/weather/new-zealand/auckland,2026-08-24 01:27:03.395074+00:00,61,16.1,new-zealand
+Jakarta,Partly sunny. Warm.,Mon 8:27 am,https://www.timeanddate.com/weather/indonesia/jakarta,2026-08-24 01:27:03.395074+00:00,77,25.0,indonesia
+Rome,Clear. Warm.,Mon 3:27 am,https://www.timeanddate.com/weather/italy/rome,2026-08-24 01:27:03.395074+00:00,77,25.0,italy
+Baghdad,Clear. Hot.,Mon 4:27 am,https://www.timeanddate.com/weather/iraq/baghdad,2026-08-24 01:27:03.395074+00:00,89,31.7,iraq
+Jerusalem,Refreshingly cool.,Mon 4:27 am,https://www.timeanddate.com/weather/israel/jerusalem,2026-08-24 01:27:03.395074+00:00,71,21.7,israel
+Salt Lake City,Broken clouds. Hot.,Sun 7:27 pm,https://www.timeanddate.com/weather/usa/salt-lake-city,2026-08-24 01:27:03.395074+00:00,92,33.3,usa
+Bangkok,Passing clouds. Warm.,Mon 8:27 am,https://www.timeanddate.com/weather/thailand/bangkok,2026-08-24 01:27:03.395074+00:00,84,28.9,thailand
+Johannesburg,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/south-africa/johannesburg,2026-08-24 01:27:03.395074+00:00,50,10.0,south-africa
+San Francisco,Partly sunny. Mild.,Sun 6:27 pm,https://www.timeanddate.com/weather/usa/san-francisco,2026-08-24 01:27:03.395074+00:00,68,20.0,usa
+Barcelona,Passing clouds. Warm.,Mon 3:27 am,https://www.timeanddate.com/weather/spain/barcelona,2026-08-24 01:27:03.395074+00:00,77,25.0,spain
+Karachi,Passing clouds. Warm.,Mon 6:27 am,https://www.timeanddate.com/weather/pakistan/karachi,2026-08-24 01:27:03.395074+00:00,81,27.2,pakistan
+San Juan,Passing clouds. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/puerto-rico/san-juan,2026-08-24 01:27:03.395074+00:00,83,28.3,puerto-rico
+Beijing,Passing clouds. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/china/beijing,2026-08-24 01:27:03.395074+00:00,77,25.0,china
+Kathmandu,Partly sunny. Mild.,Mon 7:12 am,https://www.timeanddate.com/weather/nepal/kathmandu,2026-08-24 01:27:03.395074+00:00,72,22.2,nepal
+San Salvador,Passing clouds. Warm.,Sun 7:27 pm,https://www.timeanddate.com/weather/el-salvador/san-salvador,2026-08-24 01:27:03.395074+00:00,82,27.8,el-salvador
+Belgrade,Clear. Mild.,Mon 3:27 am,https://www.timeanddate.com/weather/serbia/belgrade,2026-08-24 01:27:03.395074+00:00,64,17.8,serbia
+Kingston,Warm.,Sun 8:27 pm,https://www.timeanddate.com/weather/jamaica/kingston,2026-08-24 01:27:03.395074+00:00,85,29.4,jamaica
+Santiago,Clear. Cool.,Sun 9:27 pm,https://www.timeanddate.com/weather/chile/santiago,2026-08-24 01:27:03.395074+00:00,55,12.8,chile
+Bengaluru,Passing clouds. Mild.,Mon 6:57 am,https://www.timeanddate.com/weather/india/bengaluru,2026-08-24 01:27:03.395074+00:00,70,21.1,india
+Kinshasa,Passing clouds. Mild.,Mon 2:27 am,https://www.timeanddate.com/weather/congo-demrep/kinshasa,2026-08-24 01:27:03.395074+00:00,73,22.8,congo-demrep
+Santo Domingo,Passing clouds. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/dominican-republic/santo-domingo,2026-08-24 01:27:03.395074+00:00,85,29.4,dominican-republic
+Berlin,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/germany/berlin,2026-08-24 01:27:03.395074+00:00,52,11.1,germany
+Kiritimati,Drizzle. Overcast. Warm.,Mon 3:27 pm,https://www.timeanddate.com/weather/kiribati/kiritimati,2026-08-24 01:27:03.395074+00:00,85,29.4,kiribati
+São Paulo,Passing clouds. Cool.,Sun 10:27 pm,https://www.timeanddate.com/weather/brazil/sao-paulo,2026-08-24 01:27:03.395074+00:00,59,15.0,brazil
+Bogota,Passing clouds. Cool.,Sun 8:27 pm,https://www.timeanddate.com/weather/colombia/bogota,2026-08-24 01:27:03.395074+00:00,59,15.0,colombia
+Kolkata,Fog. Warm.,Mon 6:57 am,https://www.timeanddate.com/weather/india/kolkata,2026-08-24 01:27:03.395074+00:00,82,27.8,india
+Seattle,Overcast. Mild.,Sun 6:27 pm,https://www.timeanddate.com/weather/usa/seattle,2026-08-24 01:27:03.395074+00:00,74,23.3,usa
+Boston,Passing clouds. Mild.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/boston,2026-08-24 01:27:03.395074+00:00,67,19.4,usa
+Kuala Lumpur,Passing clouds. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/malaysia/kuala-lumpur,2026-08-24 01:27:03.395074+00:00,84,28.9,malaysia
+Seoul,Scattered clouds. Warm.,Mon 10:27 am,https://www.timeanddate.com/weather/south-korea/seoul,2026-08-24 01:27:03.395074+00:00,88,31.1,south-korea
+Brasilia,Clear. Mild.,Sun 10:27 pm,https://www.timeanddate.com/weather/brazil/brasilia,2026-08-24 01:27:03.395074+00:00,75,23.9,brazil
+Kuwait City,Passing clouds. Extremely hot.,Mon 4:27 am,https://www.timeanddate.com/weather/kuwait/kuwait-city,2026-08-24 01:27:03.395074+00:00,100,37.8,kuwait
+Shanghai,Partly sunny. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/china/shanghai,2026-08-24 01:27:03.395074+00:00,88,31.1,china
+Brisbane,Cool.,Mon 11:27 am,https://www.timeanddate.com/weather/australia/brisbane,2026-08-24 01:27:03.395074+00:00,66,18.9,australia
+Kyiv,Clear. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/ukraine/kyiv,2026-08-24 01:27:03.395074+00:00,60,15.6,ukraine
+Singapore,Partly sunny. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/singapore/singapore,2026-08-24 01:27:03.395074+00:00,86,30.0,singapore
+Brussels,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/belgium/brussels,2026-08-24 01:27:03.395074+00:00,54,12.2,belgium
+La Paz,Low clouds. Quite cool.,Sun 9:27 pm,https://www.timeanddate.com/weather/bolivia/la-paz,2026-08-24 01:27:03.395074+00:00,42,5.6,bolivia
+Sofia,Passing clouds. Mild.,Mon 4:27 am,https://www.timeanddate.com/weather/bulgaria/sofia,2026-08-24 01:27:03.395074+00:00,71,21.7,bulgaria
+Bucharest,Clear. Mild.,Mon 4:27 am,https://www.timeanddate.com/weather/romania/bucharest,2026-08-24 01:27:03.395074+00:00,73,22.8,romania
+Lagos,Passing clouds. Mild.,Mon 2:27 am,https://www.timeanddate.com/weather/nigeria/lagos,2026-08-24 01:27:03.395074+00:00,73,22.8,nigeria
+St. John's,Partly cloudy. Cool.,Sun 10:57 pm,https://www.timeanddate.com/weather/canada/st-johns,2026-08-24 01:27:03.395074+00:00,61,16.1,canada
+Budapest,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/hungary/budapest,2026-08-24 01:27:03.395074+00:00,57,13.9,hungary
+Lahore,Passing clouds. Warm.,Mon 6:27 am,https://www.timeanddate.com/weather/pakistan/lahore,2026-08-24 01:27:03.395074+00:00,84,28.9,pakistan
+Stockholm,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/sweden/stockholm,2026-08-24 01:27:03.395074+00:00,54,12.2,sweden
+Buenos Aires,Passing clouds. Cool.,Sun 10:27 pm,https://www.timeanddate.com/weather/argentina/buenos-aires,2026-08-24 01:27:03.395074+00:00,48,8.9,argentina
+Las Vegas,Scattered clouds. Extremely hot.,Sun 6:27 pm,https://www.timeanddate.com/weather/usa/las-vegas,2026-08-24 01:27:03.395074+00:00,108,42.2,usa
+Suva,Overcast. Mild.,Mon 1:27 pm,https://www.timeanddate.com/weather/fiji/suva,2026-08-24 01:27:03.395074+00:00,76,24.4,fiji
+Cairo,Clear. Warm.,Mon 4:27 am,https://www.timeanddate.com/weather/egypt/cairo,2026-08-24 01:27:03.395074+00:00,77,25.0,egypt
+Lima,Passing clouds. Mild.,Sun 8:27 pm,https://www.timeanddate.com/weather/peru/lima,2026-08-24 01:27:03.395074+00:00,72,22.2,peru
+Sydney,Sunny. Mild.,Mon 11:27 am,https://www.timeanddate.com/weather/australia/sydney,2026-08-24 01:27:03.395074+00:00,70,21.1,australia
+Calgary,Partly sunny. Mild.,Sun 7:27 pm,https://www.timeanddate.com/weather/canada/calgary,2026-08-24 01:27:03.395074+00:00,70,21.1,canada
+Lisbon,Partly cloudy. Mild.,Mon 2:27 am,https://www.timeanddate.com/weather/portugal/lisbon,2026-08-24 01:27:03.395074+00:00,68,20.0,portugal
+Taipei,Scattered showers. Broken clouds. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/taiwan/taipei,2026-08-24 01:27:03.395074+00:00,88,31.1,taiwan
+Canberra,Partly sunny. Cool.,Mon 11:27 am,https://www.timeanddate.com/weather/australia/canberra,2026-08-24 01:27:03.395074+00:00,59,15.0,australia
+London,Clear. Cool.,Mon 2:27 am,https://www.timeanddate.com/weather/uk/london,2026-08-24 01:27:03.395074+00:00,59,15.0,uk
+Tallinn,Clear. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/estonia/tallinn,2026-08-24 01:27:03.395074+00:00,59,15.0,estonia
+Cape Town,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/south-africa/cape-town,2026-08-24 01:27:03.395074+00:00,55,12.8,south-africa
+Los Angeles,Sunny. Warm.,Sun 6:27 pm,https://www.timeanddate.com/weather/usa/los-angeles,2026-08-24 01:27:03.395074+00:00,82,27.8,usa
+Tashkent,Passing clouds. Mild.,Mon 6:27 am,https://www.timeanddate.com/weather/uzbekistan/tashkent,2026-08-24 01:27:03.395074+00:00,69,20.6,uzbekistan
+Caracas,Passing clouds. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/venezuela/caracas,2026-08-24 01:27:03.395074+00:00,81,27.2,venezuela
+Madrid,Passing clouds. Mild.,Mon 3:27 am,https://www.timeanddate.com/weather/spain/madrid,2026-08-24 01:27:03.395074+00:00,72,22.2,spain
+Tegucigalpa,Passing clouds. Warm.,Sun 7:27 pm,https://www.timeanddate.com/weather/honduras/tegucigalpa,2026-08-24 01:27:03.395074+00:00,77,25.0,honduras
+Casablanca,Mild.,Mon 2:27 am,https://www.timeanddate.com/weather/morocco/casablanca,2026-08-24 01:27:03.395074+00:00,72,22.2,morocco
+Managua,Passing clouds. Warm.,Sun 7:27 pm,https://www.timeanddate.com/weather/nicaragua/managua,2026-08-24 01:27:03.395074+00:00,84,28.9,nicaragua
+Tehran,Clear. Pleasantly warm.,Mon 4:57 am,https://www.timeanddate.com/weather/iran/tehran,2026-08-24 01:27:03.395074+00:00,81,27.2,iran
+Chicago,Passing clouds. Mild.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/chicago,2026-08-24 01:27:03.395074+00:00,71,21.7,usa
+Manila,Overcast. Warm.,Mon 9:27 am,https://www.timeanddate.com/weather/philippines/manila,2026-08-24 01:27:03.395074+00:00,85,29.4,philippines
+Tokyo,Passing clouds. Warm.,Mon 10:27 am,https://www.timeanddate.com/weather/japan/tokyo,2026-08-24 01:27:03.395074+00:00,84,28.9,japan
+Copenhagen,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/denmark/copenhagen,2026-08-24 01:27:03.395074+00:00,57,13.9,denmark
+Melbourne,Partly sunny. Cool.,Mon 11:27 am,https://www.timeanddate.com/weather/australia/melbourne,2026-08-24 01:27:03.395074+00:00,59,15.0,australia
+Toronto,Passing clouds. Cool.,Sun 9:27 pm,https://www.timeanddate.com/weather/canada/toronto,2026-08-24 01:27:03.395074+00:00,61,16.1,canada
+Dallas,Scattered clouds. Extremely hot.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/dallas,2026-08-24 01:27:03.395074+00:00,103,39.4,usa
+Mexico City,Mostly cloudy. Mild.,Sun 7:27 pm,https://www.timeanddate.com/weather/mexico/mexico-city,2026-08-24 01:27:03.395074+00:00,64,17.8,mexico
+Vancouver,Partly sunny. Mild.,Sun 6:27 pm,https://www.timeanddate.com/weather/canada/vancouver,2026-08-24 01:27:03.395074+00:00,70,21.1,canada
+Dar es Salaam,Mild.,Mon 4:27 am,https://www.timeanddate.com/weather/tanzania/dar-es-salaam,2026-08-24 01:27:03.395074+00:00,70,21.1,tanzania
+Miami,Partly cloudy. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/miami,2026-08-24 01:27:03.395074+00:00,79,26.1,usa
+Vienna,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/austria/vienna,2026-08-24 01:27:03.395074+00:00,59,15.0,austria
+Darwin,Sunny. Warm.,Mon 10:57 am,https://www.timeanddate.com/weather/australia/darwin,2026-08-24 01:27:03.395074+00:00,86,30.0,australia
+Minneapolis,Scattered clouds. Pleasantly warm.,Sun 8:27 pm,https://www.timeanddate.com/weather/usa/minneapolis,2026-08-24 01:27:03.395074+00:00,78,25.6,usa
+Warsaw,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/poland/warsaw,2026-08-24 01:27:03.395074+00:00,55,12.8,poland
+Denver,Partly sunny. Mild.,Sun 7:27 pm,https://www.timeanddate.com/weather/usa/denver,2026-08-24 01:27:03.395074+00:00,72,22.2,usa
+Minsk,Passing clouds. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/belarus/minsk,2026-08-24 01:27:03.395074+00:00,55,12.8,belarus
+Washington DC,Passing clouds. Warm.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/washington-dc,2026-08-24 01:27:03.395074+00:00,79,26.1,usa
+Detroit,Passing clouds. Mild.,Sun 9:27 pm,https://www.timeanddate.com/weather/usa/detroit,2026-08-24 01:27:03.395074+00:00,65,18.3,usa
+Montevideo,Overcast. Cool.,Sun 10:27 pm,https://www.timeanddate.com/weather/uruguay/montevideo,2026-08-24 01:27:03.395074+00:00,46,7.8,uruguay
+Winnipeg,Mild.,Sun 8:27 pm,https://www.timeanddate.com/weather/canada/winnipeg,2026-08-24 01:27:03.395074+00:00,73,22.8,canada
+Dhaka,Low clouds. Warm.,Mon 7:27 am,https://www.timeanddate.com/weather/bangladesh/dhaka,2026-08-24 01:27:03.395074+00:00,80,26.7,bangladesh
+Montréal,Passing clouds. Mild.,Sun 9:27 pm,https://www.timeanddate.com/weather/canada/montreal,2026-08-24 01:27:03.395074+00:00,66,18.9,canada
+Yangon,Partly sunny. Warm.,Mon 7:57 am,https://www.timeanddate.com/weather/myanmar/yangon,2026-08-24 01:27:03.395074+00:00,81,27.2,myanmar
+Doha,Clear. Hot.,Mon 4:27 am,https://www.timeanddate.com/weather/qatar/doha,2026-08-24 01:27:03.395074+00:00,91,32.8,qatar
+Moscow,Clear. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/russia/moscow,2026-08-24 01:27:03.395074+00:00,59,15.0,russia
+Zagreb,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/croatia/zagreb,2026-08-24 01:27:03.395074+00:00,57,13.9,croatia
+Dubai,Clear. Extremely hot.,Mon 5:27 am,https://www.timeanddate.com/weather/united-arab-emirates/dubai,2026-08-24 01:27:03.395074+00:00,95,35.0,united-arab-emirates
+Mumbai,Fog. Warm.,Mon 6:57 am,https://www.timeanddate.com/weather/india/mumbai,2026-08-24 01:27:03.395074+00:00,82,27.8,india
+Zürich,Clear. Cool.,Mon 3:27 am,https://www.timeanddate.com/weather/switzerland/zurich,2026-08-24 01:27:03.395074+00:00,57,13.9,switzerland
+Dublin,Passing clouds. Quite cool.,Mon 2:27 am,https://www.timeanddate.com/weather/ireland/dublin,2026-08-24 01:27:03.395074+00:00,45,7.2,ireland
+Nairobi,Partly cloudy. Cool.,Mon 4:27 am,https://www.timeanddate.com/weather/kenya/nairobi,2026-08-24 01:27:03.395074+00:00,61,16.1,kenya
