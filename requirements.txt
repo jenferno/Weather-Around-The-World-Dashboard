@@ -1,3 +1,5 @@
 pandas
 selenium
 webdriver-manager
+plotly
+streamlit

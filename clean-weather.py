@@ -16,15 +16,18 @@ print(weather_df.isna().sum())
 print("\nDuplicate rows before cleaning:")
 print(weather_df.duplicated().sum())
 
-# Standardize the column names
-weather_df.columns = [
-    "city",
-    "condition",
-    "local_time",
-    "source_url",
-    "temperature",
-    "scraped_at"
-]
+# Rename columns by their original names so CSV column order does not matter.
+weather_df.rename(
+    columns={
+        "City": "city",
+        "Condition": "condition",
+        "Local-Time": "local_time",
+        "Source-URL": "source_url",
+        "Temperature": "temperature",
+        "Scraped-At": "scraped_at",
+    },
+    inplace=True,
+)
 
 # Remove extra spaces from text columns
 text_columns = [

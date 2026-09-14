@@ -27,6 +27,61 @@ The scraper collects:
 - `hot_cities.csv` — cities with temperatures at or above 30 degrees Celsius
 - `requirements.txt` — Python packages required by the project
 
+## Project Workflow
+
+### 1. Web Scraping
+
+The scraper.py program uses Selenium WebDriver to open the Timeanddate.com weather page.
+
+The program:
+
+- Loads the weather webpage
+- Waits for the weather table to appear
+- Extracts city names
+- Extracts temperatures
+- Saves the scraped information to raw_weather_data.csv
+- Includes timeout and error handling
+- Closes the browser after the scraping process
+
+The current successful scrape collects data for 47 cities.
+
+### 2. Data Cleaning
+
+The clean_data.py program uses Pandas to clean the scraped weather data.
+
+The program:
+
+- Reads raw_weather_data.csv
+- Extracts the numeric temperature from the temperature values
+- Converts temperatures to numeric values
+- Removes rows with missing or invalid temperatures
+- Saves the cleaned data to clean_weather_data.csv
+
+The current cleaned dataset contains 47 cities.
+
+### 3. SQLite Database
+
+The cleaned and raw data are stored in:
+
+db/weather_school.db
+
+The database contains two tables:
+
+- raw_weather_data
+- clean_weather_data
+
+Each table currently contains 47 rows.
+
+### 4. Data Visualization
+
+Matplotlib is used to create a horizontal bar chart showing current temperatures by city.
+
+The chart is saved as:
+
+images/weather_temperature_chart.png
+
+The cities are sorted by temperature so the visualization is easier to compare.
+
 ## How to Run the Project
 
 Install the required packages:
