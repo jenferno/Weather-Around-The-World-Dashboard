@@ -84,52 +84,23 @@ The cities are sorted by temperature so the visualization is easier to compare.
 
 ## How to Run the Project
 
-### Step 0: Install the required packages:
-
+Install the required packages:
 ```bash
 python -m pip install -r requirements.txt
+```
 
-### Step 1: Run the Web Scraper
+Collect the weather data:
 
-Run:
+```bash
+python scrape-weather.py
+```
 
-py scraper.py
+Clean and analyze the collected data:
 
-This collects the current weather data and saves it to raw_weather_data.csv.
+```bash
+python clean-weather.py
+```
 
-### Step 2: Clean the Data and Update the Database
+## Current Progress
 
-Run:
-
-py clean_data.py
-
-This cleans the scraped data, saves clean_weather_data.csv, updates the SQLite database, and creates the weather visualization.
-
-## Current Project Results
-
-The project has been successfully tested.
-
-- Selenium successfully scraped 47 cities.
-- raw_weather_data.csv contains 47 rows.
-- clean_weather_data.csv contains 47 rows.
-- The SQLite database contains two weather data tables.
-- Both database tables contain 47 rows.
-- The Matplotlib visualization was successfully generated.
-- scraper.py and clean_data.py successfully compile without syntax errors.
-
-## Error Handling
-
-The Selenium scraper includes timeout handling for webpage loading and for locating the weather table.
-
-The scraper also includes general error handling and ensures the browser is closed after the scraping process.
-
-## Project Purpose
-
-This project demonstrates the ability to:
-
-- Collect data from a live website using Selenium
-- Process and clean data using Pandas
-- Store structured data using SQLite
-- Create data visualizations using Matplotlib
-- Build a Python data pipeline from collection through visualization
-- Organize a Python project using Git and GitHub
+The weather scraping and data-cleaning portions are complete. The project currently produces raw, cleaned, summary, and hot-city CSV files. SQLite storage and the Streamlit dashboard will be added during later stages of the capstone project.
