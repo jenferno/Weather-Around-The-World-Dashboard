@@ -16,168 +16,191 @@ st.set_page_config(
     page_title="World Weather Dashboard",
     page_icon="🌎",
     layout="wide",
-    initial_sidebar_state="expanded",
 )
 
 
 # ============================================================
-# CUSTOM STYLING
+# CUSTOM CSS
 # ============================================================
 
 st.markdown(
     """
     <style>
 
-    /* ---------- GLOBAL ---------- */
+    /* =========================
+       MAIN BACKGROUND
+       ========================= */
 
     .stApp {
-        background: #2f3032;
-        color: #ffffff;
-    }
-
-    .main {
-        background: #2f3032;
-    }
-
-    [data-testid="stHeader"] {
-        background: transparent;
+        background-color: #303133;
+        color: white;
     }
 
     [data-testid="stAppViewContainer"] {
-        background: #2f3032;
+        background-color: #303133;
     }
 
-    /* ---------- SIDEBAR ---------- */
+    [data-testid="stHeader"] {
+        background-color: transparent;
+    }
+
+
+    /* =========================
+       SIDEBAR
+       ========================= */
 
     [data-testid="stSidebar"] {
-        background: #252628;
-        border-right: 1px solid #444548;
+        background-color: #252628;
     }
 
     [data-testid="stSidebar"] h2 {
-        color: #ffffff;
-        font-weight: 700;
+        color: white;
     }
 
     [data-testid="stSidebar"] label {
         color: #dddddd !important;
-        font-weight: 500;
     }
 
-    /* ---------- MAIN TITLE ---------- */
+
+    /* =========================
+       PAGE TITLE
+       ========================= */
 
     .dashboard-title {
         font-size: 42px;
         font-weight: 800;
+        color: white;
         margin-bottom: 4px;
-        color: #ffffff;
     }
 
     .dashboard-subtitle {
-        color: #bcbcbc;
-        font-size: 16px;
-        margin-bottom: 28px;
-    }
-
-    /* ---------- CARDS ---------- */
-
-    .weather-card {
-        background: #444547;
-        border-radius: 24px;
-        padding: 28px;
-        box-shadow: 8px 10px 0px #1e1f20;
-        border: 1px solid #4f5052;
-    }
-
-    .small-card {
-        background: #444547;
-        border-radius: 20px;
-        padding: 22px;
-        box-shadow: 6px 7px 0px #1e1f20;
-        border: 1px solid #4f5052;
-        min-height: 135px;
-    }
-
-    /* ---------- ICONS ---------- */
-
-    .weather-icon {
-        font-size: 58px;
-        line-height: 1;
-        margin-bottom: 8px;
-    }
-
-    .metric-icon {
-        font-size: 30px;
-        margin-bottom: 8px;
-    }
-
-    /* ---------- TEMPERATURE ---------- */
-
-    .temperature {
-        font-size: 64px;
-        font-weight: 800;
-        line-height: 1;
-        color: #ffffff;
-    }
-
-    .temperature-label {
-        color: #bbbbbb;
-        font-size: 15px;
-        margin-top: 5px;
-    }
-
-    /* ---------- CARD TEXT ---------- */
-
-    .card-title {
-        color: #ffffff;
-        font-size: 22px;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
-
-    .card-subtitle {
         color: #bdbdbd;
-        font-size: 14px;
+        font-size: 16px;
+        margin-bottom: 25px;
     }
 
-    .metric-value {
-        color: #ffffff;
-        font-size: 28px;
-        font-weight: 800;
-    }
 
-    .metric-label {
-        color: #bcbcbc;
-        font-size: 14px;
-        margin-top: 3px;
-    }
-
-    /* ---------- SECTION HEADERS ---------- */
+    /* =========================
+       SECTION TITLES
+       ========================= */
 
     .section-title {
         font-size: 28px;
         font-weight: 750;
-        color: #ffffff;
-        margin-top: 30px;
-        margin-bottom: 5px;
+        color: white;
+        margin-top: 25px;
+        margin-bottom: 4px;
     }
 
     .section-description {
-        color: #bcbcbc;
+        color: #bdbdbd;
+        font-size: 14px;
         margin-bottom: 15px;
     }
 
-    /* ---------- FILTER BUTTONS ---------- */
 
-    .stButton > button {
-        border-radius: 14px;
-        border: none;
-        background: #4bc51b;
-        color: white;
-        font-weight: 700;
+    /* =========================
+       WEATHER CARDS
+       ========================= */
+
+    .weather-card {
+        background-color: #444547;
+        border-radius: 22px;
+        padding: 25px;
+        min-height: 190px;
+        border: 1px solid #555659;
+        box-shadow: 7px 8px 0px #1f2021;
     }
 
-    /* ---------- MULTISELECT ---------- */
+
+    /* =========================
+       METRIC CARDS
+       ========================= */
+
+    .metric-card {
+        background-color: #444547;
+        border-radius: 20px;
+        padding: 20px;
+        min-height: 125px;
+        border: 1px solid #555659;
+        box-shadow: 6px 7px 0px #1f2021;
+    }
+
+    .metric-icon {
+        font-size: 28px;
+        margin-bottom: 7px;
+    }
+
+    .metric-value {
+        color: white;
+        font-size: 27px;
+        font-weight: 800;
+    }
+
+    .metric-label {
+        color: #bdbdbd;
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+
+    /* =========================
+       WEATHER ICON
+       ========================= */
+
+    .weather-icon {
+        font-size: 55px;
+        margin-bottom: 8px;
+    }
+
+
+    /* =========================
+       WEATHER TEXT
+       ========================= */
+
+    .card-title {
+        color: white;
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 8px;
+    }
+
+    .weather-condition {
+        color: white;
+        font-size: 28px;
+        font-weight: 800;
+    }
+
+    .weather-description {
+        color: #c7c7c7;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .big-temperature {
+        color: white;
+        font-size: 55px;
+        font-weight: 800;
+        line-height: 1;
+    }
+
+    .temperature-description {
+        color: #c7c7c7;
+        font-size: 14px;
+        margin-top: 6px;
+    }
+
+    .temperature-extreme {
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+
+
+    /* =========================
+       STREAMLIT ELEMENTS
+       ========================= */
 
     div[data-baseweb="select"] > div {
         background-color: #3c3d3f;
@@ -185,26 +208,11 @@ st.markdown(
         border: 1px solid #555659;
     }
 
-    /* ---------- SLIDER ---------- */
-
-    div[data-testid="stSlider"] {
-        padding-top: 8px;
+    [data-testid="stExpander"] {
+        background-color: #444547;
+        border-radius: 18px;
+        border: 1px solid #555659;
     }
-
-    /* ---------- EXPANDER ---------- */
-
-    details {
-        background: #444547 !important;
-        border-radius: 18px !important;
-        border: 1px solid #555659 !important;
-    }
-
-    details summary {
-        color: white !important;
-        font-weight: 700 !important;
-    }
-
-    /* ---------- DATAFRAME ---------- */
 
     [data-testid="stDataFrame"] {
         border-radius: 15px;
@@ -218,11 +226,11 @@ st.markdown(
 
 
 # ============================================================
-# HELPER FUNCTIONS
+# WEATHER ICON FUNCTION
 # ============================================================
 
 def get_weather_icon(condition):
-    """Return a weather icon based on the condition text."""
+    """Return an emoji based on the weather condition."""
 
     condition = str(condition).lower()
 
@@ -235,23 +243,23 @@ def get_weather_icon(condition):
     if "rain" in condition or "drizzle" in condition:
         return "🌧️"
 
-    if "cloud" in condition or "overcast" in condition:
-        return "☁️"
+    if "fog" in condition or "mist" in condition:
+        return "🌫️"
 
     if "partly" in condition:
         return "🌤️"
 
+    if "cloud" in condition or "overcast" in condition:
+        return "☁️"
+
     if "clear" in condition or "sunny" in condition:
         return "☀️"
-
-    if "fog" in condition or "mist" in condition:
-        return "🌫️"
 
     return "🌤️"
 
 
 # ============================================================
-# LOAD DATABASE
+# DATABASE
 # ============================================================
 
 database_path = Path(__file__).resolve().parent / "weather_data.db"
@@ -280,7 +288,7 @@ except (sqlite3.Error, pd.errors.DatabaseError) as error:
 
 
 # ============================================================
-# VALIDATE DATA
+# DATA VALIDATION
 # ============================================================
 
 required_columns = {
@@ -317,7 +325,9 @@ for column in ["city", "country", "condition"]:
     )
 
 
-latest = df["scraped_at"].max()
+# ============================================================
+# REMOVE INVALID TEMPERATURES
+# ============================================================
 
 missing_temperatures = df["temperature_c"].isna().sum()
 
@@ -344,20 +354,24 @@ if df.empty:
 # ============================================================
 
 st.markdown(
-    '<div class="dashboard-title">🌎 World Weather Dashboard</div>',
-    unsafe_allow_html=True,
-)
-
-st.markdown(
     """
+    <div class="dashboard-title">
+        🌎 World Weather Dashboard
+    </div>
+
     <div class="dashboard-subtitle">
-        Explore scraped weather observations from cities around the world.
-        Use the filters to interact with the dashboard.
+        Explore temperatures and weather conditions from scraped city observations.
     </div>
     """,
     unsafe_allow_html=True,
 )
 
+
+# ============================================================
+# LATEST SCRAPE
+# ============================================================
+
+latest = df["scraped_at"].max()
 
 if pd.notna(latest):
     st.caption(
@@ -366,7 +380,7 @@ if pd.notna(latest):
 
 
 # ============================================================
-# SIDEBAR FILTERS
+# SIDEBAR
 # ============================================================
 
 st.sidebar.markdown(
@@ -376,8 +390,8 @@ st.sidebar.markdown(
     unsafe_allow_html=True,
 )
 
-st.sidebar.markdown(
-    "Use the filters below to customize the dashboard."
+st.sidebar.write(
+    "Use the filters below to update the dashboard."
 )
 
 
@@ -405,17 +419,27 @@ unit = st.sidebar.selectbox(
 # TEMPERATURE CONVERSION
 # ============================================================
 
-temperature_column = "display_temperature"
-
 if unit == "Celsius":
-    df[temperature_column] = df["temperature_c"]
+
+    df["display_temperature"] = df["temperature_c"]
+
     unit_label = "°C"
+
 else:
-    df[temperature_column] = (
+
+    df["display_temperature"] = (
         df["temperature_c"] * 9 / 5 + 32
     )
+
     unit_label = "°F"
 
+
+temperature_column = "display_temperature"
+
+
+# ============================================================
+# TEMPERATURE SLIDER
+# ============================================================
 
 low = float(df[temperature_column].min())
 high = float(df[temperature_column].max())
@@ -425,9 +449,9 @@ if low < high:
 
     temperature_range = st.sidebar.slider(
         f"🌡️ Temperature Range ({unit_label})",
-        low,
-        high,
-        (low, high),
+        min_value=low,
+        max_value=high,
+        value=(low, high),
     )
 
 else:
@@ -443,7 +467,8 @@ filtered = df[
     df["country"].isin(countries)
     & df["condition"].isin(conditions)
     & df[temperature_column].between(
-        *temperature_range
+        temperature_range[0],
+        temperature_range[1],
     )
 ].copy()
 
@@ -460,23 +485,47 @@ if filtered.empty:
 
 
 # ============================================================
-# TOP METRIC CARDS
+# CALCULATE METRICS
 # ============================================================
 
 average_temperature = filtered[
     temperature_column
 ].mean()
 
-
 warmest_temperature = filtered[
     temperature_column
 ].max()
-
 
 coolest_temperature = filtered[
     temperature_column
 ].min()
 
+number_of_observations = len(filtered)
+
+number_of_countries = filtered[
+    "country"
+].nunique()
+
+most_common_condition = (
+    filtered["condition"]
+    .value_counts()
+    .idxmax()
+)
+
+most_common_condition_count = (
+    filtered["condition"]
+    .value_counts()
+    .max()
+)
+
+weather_icon = get_weather_icon(
+    most_common_condition
+)
+
+
+# ============================================================
+# METRIC CARDS
+# ============================================================
 
 col1, col2, col3, col4 = st.columns(4)
 
@@ -485,10 +534,18 @@ with col1:
 
     st.markdown(
         f"""
-        <div class="small-card">
+        <div class="metric-card">
+
             <div class="metric-icon">📊</div>
-            <div class="metric-value">{len(filtered):,}</div>
-            <div class="metric-label">Matching Observations</div>
+
+            <div class="metric-value">
+                {number_of_observations:,}
+            </div>
+
+            <div class="metric-label">
+                Matching Observations
+            </div>
+
         </div>
         """,
         unsafe_allow_html=True,
@@ -499,10 +556,18 @@ with col2:
 
     st.markdown(
         f"""
-        <div class="small-card">
+        <div class="metric-card">
+
             <div class="metric-icon">🌎</div>
-            <div class="metric-value">{filtered["country"].nunique()}</div>
-            <div class="metric-label">Countries</div>
+
+            <div class="metric-value">
+                {number_of_countries}
+            </div>
+
+            <div class="metric-label">
+                Countries
+            </div>
+
         </div>
         """,
         unsafe_allow_html=True,
@@ -513,10 +578,18 @@ with col3:
 
     st.markdown(
         f"""
-        <div class="small-card">
+        <div class="metric-card">
+
             <div class="metric-icon">🌡️</div>
-            <div class="metric-value">{average_temperature:.1f} {unit_label}</div>
-            <div class="metric-label">Average Temperature</div>
+
+            <div class="metric-value">
+                {average_temperature:.1f} {unit_label}
+            </div>
+
+            <div class="metric-label">
+                Average Temperature
+            </div>
+
         </div>
         """,
         unsafe_allow_html=True,
@@ -527,10 +600,18 @@ with col4:
 
     st.markdown(
         f"""
-        <div class="small-card">
+        <div class="metric-card">
+
             <div class="metric-icon">🔥</div>
-            <div class="metric-value">{warmest_temperature:.1f} {unit_label}</div>
-            <div class="metric-label">Warmest Observation</div>
+
+            <div class="metric-value">
+                {warmest_temperature:.1f} {unit_label}
+            </div>
+
+            <div class="metric-label">
+                Warmest Observation
+            </div>
+
         </div>
         """,
         unsafe_allow_html=True,
@@ -538,40 +619,29 @@ with col4:
 
 
 # ============================================================
-# CURRENT WEATHER OVERVIEW
+# WEATHER OVERVIEW
 # ============================================================
 
 st.markdown(
-    '<div class="section-title">🌤️ Weather Overview</div>',
+    """
+    <div class="section-title">
+        ☀️ Weather Overview
+    </div>
+
+    <div class="section-description">
+        A quick visual summary of the filtered weather observations.
+    </div>
+    """,
     unsafe_allow_html=True,
 )
-
-st.markdown(
-    '<div class="section-description">'
-    'A quick visual summary of the filtered weather observations.'
-    '</div>',
-    unsafe_allow_html=True,
-)
-
-
-# Find most common condition
-common_condition = (
-    filtered["condition"]
-    .value_counts()
-    .idxmax()
-)
-
-condition_count = (
-    filtered["condition"]
-    .value_counts()
-    .max()
-)
-
-condition_icon = get_weather_icon(common_condition)
 
 
 overview_col1, overview_col2 = st.columns([1, 2])
 
+
+# ------------------------------------------------------------
+# MOST COMMON CONDITION
+# ------------------------------------------------------------
 
 with overview_col1:
 
@@ -580,19 +650,20 @@ with overview_col1:
         <div class="weather-card">
 
             <div class="weather-icon">
-                {condition_icon}
+                {weather_icon}
             </div>
 
             <div class="card-title">
                 Most Common Condition
             </div>
 
-            <div class="temperature">
-                {common_condition}
+            <div class="weather-condition">
+                {most_common_condition}
             </div>
 
-            <div class="temperature-label">
-                Reported in {condition_count:,} observations
+            <div class="weather-description">
+                Reported in {most_common_condition_count:,}
+                observations
             </div>
 
         </div>
@@ -600,6 +671,10 @@ with overview_col1:
         unsafe_allow_html=True,
     )
 
+
+# ------------------------------------------------------------
+# TEMPERATURE SUMMARY
+# ------------------------------------------------------------
 
 with overview_col2:
 
@@ -612,39 +687,34 @@ with overview_col2:
             </div>
 
             <div style="
-                display:flex;
-                justify-content:space-between;
-                align-items:center;
-                margin-top:25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 25px;
             ">
 
                 <div>
-                    <div class="temperature">
+
+                    <div class="big-temperature">
                         {average_temperature:.1f}{unit_label}
                     </div>
 
-                    <div class="temperature-label">
+                    <div class="temperature-description">
                         Average temperature
                     </div>
+
                 </div>
 
-                <div style="text-align:right;">
+                <div style="text-align: right;">
 
-                    <div style="
-                        color:#ffffff;
-                        font-size:18px;
-                        font-weight:700;
-                    ">
-                        🔥 {warmest_temperature:.1f}{unit_label}
+                    <div class="temperature-extreme">
+                        🔥 Warmest:
+                        {warmest_temperature:.1f}{unit_label}
                     </div>
 
-                    <div style="
-                        color:#ffffff;
-                        font-size:18px;
-                        font-weight:700;
-                        margin-top:10px;
-                    ">
-                        🧊 {coolest_temperature:.1f}{unit_label}
+                    <div class="temperature-extreme">
+                        🧊 Coolest:
+                        {coolest_temperature:.1f}{unit_label}
                     </div>
 
                 </div>
@@ -658,18 +728,20 @@ with overview_col2:
 
 
 # ============================================================
-# COUNTRY TEMPERATURE CHART
+# AVERAGE TEMPERATURE BY COUNTRY
 # ============================================================
 
 st.markdown(
-    '<div class="section-title">🌎 Average Temperature by Country</div>',
-    unsafe_allow_html=True,
-)
+    """
+    <div class="section-title">
+        🌎 Average Temperature by Country
+    </div>
 
-st.markdown(
-    '<div class="section-description">'
-    'Compare average temperatures among the observations matching your filters.'
-    '</div>',
+    <div class="section-description">
+        Compare average temperatures among the observations
+        matching your filters.
+    </div>
+    """,
     unsafe_allow_html=True,
 )
 
@@ -699,7 +771,6 @@ country_chart = px.bar(
     y="country",
     orientation="h",
     labels=labels,
-    title="",
 )
 
 
@@ -708,24 +779,24 @@ country_chart.update_layout(
         450,
         len(summary) * 30 + 150,
     ),
-    yaxis={
-        "autorange": "reversed",
-        "automargin": True,
-    },
     paper_bgcolor="rgba(0,0,0,0)",
     plot_bgcolor="rgba(0,0,0,0)",
-    font={
-        "color": "white",
-    },
-    xaxis={
-        "gridcolor": "#555659",
-        "zerolinecolor": "#555659",
-    },
-    yaxis_title="",
+    font=dict(
+        color="white"
+    ),
+    yaxis=dict(
+        autorange="reversed",
+        automargin=True,
+        title="",
+    ),
+    xaxis=dict(
+        gridcolor="#555659",
+        zerolinecolor="#555659",
+    ),
     margin=dict(
         l=20,
         r=20,
-        t=30,
+        t=20,
         b=20,
     ),
 )
@@ -738,7 +809,7 @@ st.plotly_chart(
 
 
 # ============================================================
-# TWO-CHART SECTION
+# TEMPERATURE DISTRIBUTION + CONDITIONS
 # ============================================================
 
 chart_col1, chart_col2 = st.columns(2)
@@ -751,14 +822,15 @@ chart_col1, chart_col2 = st.columns(2)
 with chart_col1:
 
     st.markdown(
-        '<div class="section-title">🌡️ Temperature Distribution</div>',
-        unsafe_allow_html=True,
-    )
+        """
+        <div class="section-title">
+            🌡️ Temperature Distribution
+        </div>
 
-    st.markdown(
-        '<div class="section-description">'
-        'How frequently different temperatures occur.'
-        '</div>',
+        <div class="section-description">
+            See how frequently different temperatures occur.
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 
@@ -767,23 +839,24 @@ with chart_col1:
         x=temperature_column,
         nbins=20,
         labels=labels,
-        title="",
     )
 
     histogram.update_layout(
         height=450,
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font={"color": "white"},
-        xaxis={
-            "gridcolor": "#555659",
-            "zerolinecolor": "#555659",
-        },
-        yaxis={
-            "gridcolor": "#555659",
-            "zerolinecolor": "#555659",
-            "title": "Observations",
-        },
+        font=dict(
+            color="white"
+        ),
+        xaxis=dict(
+            gridcolor="#555659",
+            zerolinecolor="#555659",
+        ),
+        yaxis=dict(
+            gridcolor="#555659",
+            zerolinecolor="#555659",
+            title="Observations",
+        ),
         margin=dict(
             l=20,
             r=20,
@@ -805,14 +878,15 @@ with chart_col1:
 with chart_col2:
 
     st.markdown(
-        '<div class="section-title">☁️ Weather Conditions</div>',
-        unsafe_allow_html=True,
-    )
+        """
+        <div class="section-title">
+            ☁️ Weather Conditions
+        </div>
 
-    st.markdown(
-        '<div class="section-description">'
-        'Compare the number of observations for each condition.'
-        '</div>',
+        <div class="section-description">
+            Compare the number of observations for each condition.
+        </div>
+        """,
         unsafe_allow_html=True,
     )
 
@@ -827,29 +901,32 @@ with chart_col2:
         )
     )
 
+
     condition_chart = px.bar(
         counts,
         x="count",
         y="condition",
         orientation="h",
         labels=labels,
-        title="",
     )
+
 
     condition_chart.update_layout(
         height=450,
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
-        font={"color": "white"},
-        xaxis={
-            "gridcolor": "#555659",
-            "zerolinecolor": "#555659",
-        },
-        yaxis={
-            "automargin": True,
-            "autorange": "reversed",
-            "title": "",
-        },
+        font=dict(
+            color="white"
+        ),
+        xaxis=dict(
+            gridcolor="#555659",
+            zerolinecolor="#555659",
+        ),
+        yaxis=dict(
+            automargin=True,
+            autorange="reversed",
+            title="",
+        ),
         margin=dict(
             l=20,
             r=20,
@@ -857,6 +934,7 @@ with chart_col2:
             b=20,
         ),
     )
+
 
     st.plotly_chart(
         condition_chart,
@@ -885,11 +963,13 @@ with st.expander("📋 View Filtered Observations"):
         }
     )
 
+
     st.dataframe(
         display,
         hide_index=True,
         use_container_width=True,
     )
+
 
     st.download_button(
         "⬇️ Download Filtered Observations",
