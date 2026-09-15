@@ -25,201 +25,173 @@ st.set_page_config(
 
 st.markdown(
     """
-    <style>
+<style>
 
-    /* =========================
-       MAIN BACKGROUND
-       ========================= */
+.stApp {
+    background-color: #303133;
+    color: white;
+}
 
-    .stApp {
-        background-color: #303133;
-        color: white;
-    }
+[data-testid="stAppViewContainer"] {
+    background-color: #303133;
+}
 
-    [data-testid="stAppViewContainer"] {
-        background-color: #303133;
-    }
-
-    [data-testid="stHeader"] {
-        background-color: transparent;
-    }
+[data-testid="stHeader"] {
+    background-color: transparent;
+}
 
 
-    /* =========================
-       SIDEBAR
-       ========================= */
+/* SIDEBAR */
 
-    [data-testid="stSidebar"] {
-        background-color: #252628;
-    }
+[data-testid="stSidebar"] {
+    background-color: #252628;
+}
 
-    [data-testid="stSidebar"] h2 {
-        color: white;
-    }
+[data-testid="stSidebar"] h2 {
+    color: white;
+}
 
-    [data-testid="stSidebar"] label {
-        color: #dddddd !important;
-    }
+[data-testid="stSidebar"] label {
+    color: #dddddd !important;
+}
 
 
-    /* =========================
-       PAGE TITLE
-       ========================= */
+/* TITLES */
 
-    .dashboard-title {
-        font-size: 42px;
-        font-weight: 800;
-        color: white;
-        margin-bottom: 4px;
-    }
+.dashboard-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 5px;
+}
 
-    .dashboard-subtitle {
-        color: #bdbdbd;
-        font-size: 16px;
-        margin-bottom: 25px;
-    }
+.dashboard-subtitle {
+    color: #bdbdbd;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
 
+.section-title {
+    font-size: 28px;
+    font-weight: 750;
+    color: white;
+    margin-top: 28px;
+    margin-bottom: 5px;
+}
 
-    /* =========================
-       SECTION TITLES
-       ========================= */
-
-    .section-title {
-        font-size: 28px;
-        font-weight: 750;
-        color: white;
-        margin-top: 25px;
-        margin-bottom: 4px;
-    }
-
-    .section-description {
-        color: #bdbdbd;
-        font-size: 14px;
-        margin-bottom: 15px;
-    }
+.section-description {
+    color: #bdbdbd;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
 
 
-    /* =========================
-       WEATHER CARDS
-       ========================= */
+/* METRIC CARDS */
 
-    .weather-card {
-        background-color: #444547;
-        border-radius: 22px;
-        padding: 25px;
-        min-height: 190px;
-        border: 1px solid #555659;
-        box-shadow: 7px 8px 0px #1f2021;
-    }
+.metric-card {
+    background-color: #444547;
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 125px;
+    border: 1px solid #555659;
+    box-shadow: 6px 7px 0px #1f2021;
+}
 
+.metric-icon {
+    font-size: 28px;
+    margin-bottom: 7px;
+}
 
-    /* =========================
-       METRIC CARDS
-       ========================= */
+.metric-value {
+    color: white;
+    font-size: 27px;
+    font-weight: 800;
+}
 
-    .metric-card {
-        background-color: #444547;
-        border-radius: 20px;
-        padding: 20px;
-        min-height: 125px;
-        border: 1px solid #555659;
-        box-shadow: 6px 7px 0px #1f2021;
-    }
-
-    .metric-icon {
-        font-size: 28px;
-        margin-bottom: 7px;
-    }
-
-    .metric-value {
-        color: white;
-        font-size: 27px;
-        font-weight: 800;
-    }
-
-    .metric-label {
-        color: #bdbdbd;
-        font-size: 14px;
-        margin-top: 4px;
-    }
+.metric-label {
+    color: #bdbdbd;
+    font-size: 14px;
+    margin-top: 4px;
+}
 
 
-    /* =========================
-       WEATHER ICON
-       ========================= */
+/* WEATHER CARDS */
 
-    .weather-icon {
-        font-size: 55px;
-        margin-bottom: 8px;
-    }
+.weather-card {
+    background-color: #444547;
+    border-radius: 22px;
+    padding: 25px;
+    min-height: 190px;
+    border: 1px solid #555659;
+    box-shadow: 7px 8px 0px #1f2021;
+}
+
+.weather-icon {
+    font-size: 55px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.card-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.weather-condition {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.weather-description {
+    color: #c7c7c7;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.big-temperature {
+    color: white;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.temperature-description {
+    color: #c7c7c7;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.temperature-extreme {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
 
 
-    /* =========================
-       WEATHER TEXT
-       ========================= */
+/* STREAMLIT CONTROLS */
 
-    .card-title {
-        color: white;
-        font-size: 20px;
-        font-weight: 700;
-        margin-bottom: 8px;
-    }
+div[data-baseweb="select"] > div {
+    background-color: #3c3d3f;
+    border-radius: 12px;
+    border: 1px solid #555659;
+}
 
-    .weather-condition {
-        color: white;
-        font-size: 28px;
-        font-weight: 800;
-    }
+[data-testid="stExpander"] {
+    background-color: #444547;
+    border-radius: 18px;
+    border: 1px solid #555659;
+}
 
-    .weather-description {
-        color: #c7c7c7;
-        font-size: 14px;
-        margin-top: 5px;
-    }
+[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    overflow: hidden;
+}
 
-    .big-temperature {
-        color: white;
-        font-size: 55px;
-        font-weight: 800;
-        line-height: 1;
-    }
-
-    .temperature-description {
-        color: #c7c7c7;
-        font-size: 14px;
-        margin-top: 6px;
-    }
-
-    .temperature-extreme {
-        color: white;
-        font-size: 18px;
-        font-weight: 700;
-        margin-bottom: 12px;
-    }
-
-
-    /* =========================
-       STREAMLIT ELEMENTS
-       ========================= */
-
-    div[data-baseweb="select"] > div {
-        background-color: #3c3d3f;
-        border-radius: 12px;
-        border: 1px solid #555659;
-    }
-
-    [data-testid="stExpander"] {
-        background-color: #444547;
-        border-radius: 18px;
-        border: 1px solid #555659;
-    }
-
-    [data-testid="stDataFrame"] {
-        border-radius: 15px;
-        overflow: hidden;
-    }
-
-    </style>
+</style>
     """,
     unsafe_allow_html=True,
 )
@@ -259,7 +231,7 @@ def get_weather_icon(condition):
 
 
 # ============================================================
-# DATABASE
+# LOAD DATABASE
 # ============================================================
 
 database_path = Path(__file__).resolve().parent / "weather_data.db"
@@ -288,7 +260,7 @@ except (sqlite3.Error, pd.errors.DatabaseError) as error:
 
 
 # ============================================================
-# DATA VALIDATION
+# VALIDATE DATA
 # ============================================================
 
 required_columns = {
@@ -384,10 +356,7 @@ if pd.notna(latest):
 # ============================================================
 
 st.sidebar.markdown(
-    """
-    <h2>🌤️ Explore Weather</h2>
-    """,
-    unsafe_allow_html=True,
+    "## 🌤️ Explore Weather"
 )
 
 st.sidebar.write(
@@ -532,10 +501,9 @@ col1, col2, col3, col4 = st.columns(4)
 
 with col1:
 
-    st.markdown(
+    st.html(
         f"""
         <div class="metric-card">
-
             <div class="metric-icon">📊</div>
 
             <div class="metric-value">
@@ -545,19 +513,16 @@ with col1:
             <div class="metric-label">
                 Matching Observations
             </div>
-
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
 with col2:
 
-    st.markdown(
+    st.html(
         f"""
         <div class="metric-card">
-
             <div class="metric-icon">🌎</div>
 
             <div class="metric-value">
@@ -567,19 +532,16 @@ with col2:
             <div class="metric-label">
                 Countries
             </div>
-
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
 with col3:
 
-    st.markdown(
+    st.html(
         f"""
         <div class="metric-card">
-
             <div class="metric-icon">🌡️</div>
 
             <div class="metric-value">
@@ -589,19 +551,16 @@ with col3:
             <div class="metric-label">
                 Average Temperature
             </div>
-
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
 with col4:
 
-    st.markdown(
+    st.html(
         f"""
         <div class="metric-card">
-
             <div class="metric-icon">🔥</div>
 
             <div class="metric-value">
@@ -611,10 +570,8 @@ with col4:
             <div class="metric-label">
                 Warmest Observation
             </div>
-
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
@@ -639,13 +596,13 @@ st.markdown(
 overview_col1, overview_col2 = st.columns([1, 2])
 
 
-# ------------------------------------------------------------
-# MOST COMMON CONDITION
-# ------------------------------------------------------------
+# ============================================================
+# MOST COMMON CONDITION CARD
+# ============================================================
 
 with overview_col1:
 
-    st.markdown(
+    st.html(
         f"""
         <div class="weather-card">
 
@@ -667,18 +624,17 @@ with overview_col1:
             </div>
 
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
-# ------------------------------------------------------------
-# TEMPERATURE SUMMARY
-# ------------------------------------------------------------
+# ============================================================
+# TEMPERATURE SUMMARY CARD
+# ============================================================
 
 with overview_col2:
 
-    st.markdown(
+    st.html(
         f"""
         <div class="weather-card">
 
@@ -722,8 +678,7 @@ with overview_col2:
             </div>
 
         </div>
-        """,
-        unsafe_allow_html=True,
+        """
     )
 
 
@@ -809,15 +764,15 @@ st.plotly_chart(
 
 
 # ============================================================
-# TEMPERATURE DISTRIBUTION + CONDITIONS
+# TWO CHARTS
 # ============================================================
 
 chart_col1, chart_col2 = st.columns(2)
 
 
-# ------------------------------------------------------------
+# ============================================================
 # TEMPERATURE DISTRIBUTION
-# ------------------------------------------------------------
+# ============================================================
 
 with chart_col1:
 
@@ -834,12 +789,14 @@ with chart_col1:
         unsafe_allow_html=True,
     )
 
+
     histogram = px.histogram(
         filtered,
         x=temperature_column,
         nbins=20,
         labels=labels,
     )
+
 
     histogram.update_layout(
         height=450,
@@ -865,15 +822,16 @@ with chart_col1:
         ),
     )
 
+
     st.plotly_chart(
         histogram,
         use_container_width=True,
     )
 
 
-# ------------------------------------------------------------
+# ============================================================
 # WEATHER CONDITIONS
-# ------------------------------------------------------------
+# ============================================================
 
 with chart_col2:
 
@@ -889,6 +847,7 @@ with chart_col2:
         """,
         unsafe_allow_html=True,
     )
+
 
     counts = (
         filtered
@@ -943,7 +902,7 @@ with chart_col2:
 
 
 # ============================================================
-# FILTERED DATA
+# FILTERED OBSERVATIONS
 # ============================================================
 
 with st.expander("📋 View Filtered Observations"):
